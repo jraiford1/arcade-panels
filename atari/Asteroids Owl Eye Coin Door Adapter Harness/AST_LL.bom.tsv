@@ -1,0 +1,7 @@
+Id	Description	Qty	Unit	Designators
+1	Cable, 1 wires	6.0	cm	GND Loopback
+2	Cable, 11 wires	11.0	cm	Main Harness
+3	Cable, 2 wires	13.0	cm	Right Coin Harness
+4	Connector, Molex 0003091032, female, 3 pins	1		Right Coin Counter
+5	Connector, Molex 0003091152, female, 15 pins	1		Lunar Lander
+6	Connector, TE 1-640515-0, male, 24 pins	1		Asteroids

@@ -1,0 +1,42 @@
+connectors:
+  Asteroids:
+    type: TE 1-640515-0
+    subtype: male
+    pinlabels: [Left Coin Sw, Center Coin Sw, Right Coin Sw, Test Switch, Slam Switch, SW GND, +10V DC, Left Coin Lockout Coil, Center Coin Lockout Coil, Right Coin Lockout Coil, (Not Used), (Not Used), Right Coin Meter, +10V DC, Center Coin Meter, +10V DC, Left Coin Meter, +10V DC, 6.3VAC, 6.3VAC Common, -, -, Chassis GND, Chassis GND]
+  Lunar Lander:
+    type: Molex 0003091152
+    subtype: female
+    pinlabels: [6.3 VAC HI, 6.3 VAC LO, 10.3 VDC Unreg, Coin Counter, GND, Coin 1 (Right) N.O., -, GND, Coin 2 (Left) N.O., -, GND, Slam, 10.3 VDC Unreg, Chassis GND, GND]
+  Right Coin Counter:
+    type: Molex 0003091032
+    subtype: female
+    pinlabels: [+10V DC, -, Right Coin Meter]
+  
+
+cables:
+  Main Harness:
+    wirecount: 11
+    length: 11 cm
+    colors: [BG, BG, WH, PK, BK, OG, BN, GY, WH, OL, OL]
+  Right Coin Harness:
+    wirecount: 2
+    length: 13 cm
+    colors: [WH, RD]
+  GND Loopback:
+    wirecount: 1
+    length: 6 cm
+    colors: [BK]
+  
+
+connections:
+  -
+    - Asteroids: [19,20,18,17,6,3,2, 5, 7,23,24]
+    - Main Harness:  [1,2,3, 4,5,6,7,8,9,10,11]
+    - Lunar Lander:  [ 1, 2, 3, 4,5,6,9,12,13,14,14]
+  -
+    - Asteroids: [14, 13]
+    - Right Coin Harness: [1, 2]
+    - Right Coin Counter: [1, 3]
+  -
+    - GND Loopback: [1, 1,  1,  1]
+    - Lunar Lander: [5, 8, 11, 15]
