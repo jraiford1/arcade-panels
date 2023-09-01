@@ -37,3 +37,5 @@ Let's work together to create an amazing collection of arcade panels that enhanc
 ---
 
 **Note**: This repository is maintained by the community, and we appreciate your contributions. However, please remember to respect each other and adhere to our code of conduct when participating in this project.
+
+(Thank you ChatGPT for generating this readme from my simple request: "generate a readme in markdown format for a GitHub repository called "arcade-panels" which includes 3D models and related files (like label designs) for arcade games. This readme should encourage others to contribute additional designs and suggested modifications.")
