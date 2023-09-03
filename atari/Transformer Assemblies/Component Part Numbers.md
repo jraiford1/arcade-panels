@@ -1,3 +1,7 @@
+# Component Part Numbers
+
+These are the part numbers for the modern replacements for the components used in the transformer assemblies and the harnesses connected to it.
+
 ## Transformer Assembly Connectors
 
 | **Part Number**  | **Qty** | **Pins** | **Gender** | **Mounting Ears** | **Comment**                 |
@@ -30,3 +34,11 @@
 | Molex 02091117   | 18-22 AWG     | Female     | Reel                 |
 | Molex 02092118   | 18-22 AWG     | Male       | Bag                  |
 | Molex 02091119   | 18-22 AWG     | Female     | Bag                  |
+
+## Voltage Selector Dongle
+
+The voltage selector dongle consists of 14 gauge wire, seven male connectors, and requires a splice connector or solder and heat shrink. <br/>
+For example:
+* Woods Southwire 55670823 Stranded Primary Wire
+* SR Components SSS-3F Quick Splice Connector
+* 7x Male 14 AWG connectors (Molex 02092101 or Molex 02092103)
