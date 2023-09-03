@@ -1,4 +1,4 @@
-**Transformer Assembly Connectors**
+## Transformer Assembly Connectors
 
 | **Part Number**  | **Qty** | **Pins** | **Gender** | **Mounting Ears** | **Comment**                 |
 |------------------|---------|----------|------------|-------------------|-----------------------------|
@@ -8,7 +8,8 @@
 | AMP 0003091091   | 1x      | 9 POS    | Male       | Yes               | Voltage selector            |
 | AMP 0003091151   | 1x      | 15 POS   | Male       | Yes               | Regulated power output      |
 
-**Mating Connectors**
+
+## Mating Connectors
 
 | **Part Number**  | **Qty** | **Pins** | **Gender** | **Mounting Ears** | **Comment**                        |
 |------------------|---------|----------|------------|-------------------|------------------------------------|
@@ -18,7 +19,8 @@
 | AMP 0003092092   | 1x      | 9 POS    | Female     | No                | Voltage selector device            |
 | AMP 0003092151   | 1x      | 15 POS   | Female     | No                | Main wiring harness                |
 
-**Pins for Assembly Connectors and Mating Connectors**
+
+## Pins for Assembly Connectors and Mating Connector
 
 | **Part Number**  | **Wire Size** | **Gender** | **Comment**          |
 |------------------|---------------|------------|----------------------|
